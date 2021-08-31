@@ -8,8 +8,10 @@ The priority structure:
 *Green - Low
 The simulation run of the project can be viewed here.
 
-## Tech stack involved.
-It uses ROS melodic on Ubuntu 18.04 LTS bionic beaver OS.
-OpenCV is used for computer vision in order to capture the packages on the shelf. 
-Pyzbar library was used for decoding the QR codes which contains the package specific information that is required to sort pick packages based on priority.
-RViz for motion planning.
+## Tech stack
+*ROS  melodic.
+*Gazebo for simulation.
+*Ubuntu 18.04 LTS bionic beaver OS.
+*OpenCV (computer vision in order to capture the packages on the shelf. )
+*Pyzbar library(for decoding the QR codes which contains the package specific information that is required to sort pick packages based on priority.)
+*RViz (for motion planning.)
