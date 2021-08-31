@@ -10,6 +10,8 @@ The simulation run of the project can be viewed here.
 
 ## Tech stack
 * ROS  melodic.
+* rospy
+* cmake
 * Gazebo for simulation.
 * Ubuntu 18.04 LTS bionic beaver OS.
 * OpenCV (computer vision in order to capture the packages on the shelf. )
