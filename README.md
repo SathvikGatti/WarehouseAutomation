@@ -3,15 +3,15 @@ This is a simulation based warehouse automation project that is built with Robot
 It involves two UR5 robotic arms working in a warehouse scene that automate the process of sortation in a warehouse. They work in sync to pick and sort packages
 based on priority. The priority of the packages are depicted by the colour of the package.
 The priority structure:
-*Red - High
-*yellow - Medium
-*Green - Low
+* Red - High
+* yellow - Medium
+* Green - Low
 The simulation run of the project can be viewed here.
 
 ## Tech stack
-*ROS  melodic.
-*Gazebo for simulation.
-*Ubuntu 18.04 LTS bionic beaver OS.
-*OpenCV (computer vision in order to capture the packages on the shelf. )
-*Pyzbar library(for decoding the QR codes which contains the package specific information that is required to sort pick packages based on priority.)
-*RViz (for motion planning.)
+* ROS  melodic.
+* Gazebo for simulation.
+* Ubuntu 18.04 LTS bionic beaver OS.
+* OpenCV (computer vision in order to capture the packages on the shelf. )
+* Pyzbar library(for decoding the QR codes which contains the package specific information that is required to sort pick packages based on priority.)
+* RViz (for motion planning.)
