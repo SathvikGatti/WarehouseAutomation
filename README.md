@@ -1,7 +1,9 @@
 # Warehouse Automation Using ROS and UR5 robotic arms.
 This is a simulation based warehouse automation project that is built with Robotic Operating System(ROS) and simulated in the Gazebo simulator.
 It involves two UR5 robotic arms working in a warehouse scene that automate the process of sortation in a warehouse. They work in sync to pick and sort packages
-based on priority. The priority of the packages are depicted by the colour of the package.
+based on priority. 
+The first arm picks and places the packages on to the conveyor belt based on priority, this conveyor belt then carries the package to the second ur5 arm which then picks and segregates the packages in to sepatrate boxes or conveyors for shipping based on priority.
+The priority of the packages are depicted by the colour of the package.
 The priority structure:
 * Red - High
 * yellow - Medium
