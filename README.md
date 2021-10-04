@@ -8,7 +8,7 @@ The priority structure:
 * Red - High
 * yellow - Medium
 * Green - Low
-The simulation run of the project can be viewed here.
+
 
 ## Tech stack
 * ROS  melodic.
@@ -19,3 +19,5 @@ The simulation run of the project can be viewed here.
 * OpenCV (computer vision in order to capture the packages on the shelf. )
 * Pyzbar library(for decoding the QR codes which contains the package specific information that is required to sort pick packages based on priority.)
 * RViz (for motion planning.)
+
+The simulation run of the project can be viewed here: https://drive.google.com/drive/folders/1EmKTsNSPSyt66-qqJYsOdgeVhdPKZmTD
